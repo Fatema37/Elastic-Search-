@@ -1,0 +1,27 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text"
+      },
+      "description": {
+        "type": "text"
+      },
+      "image": {
+        "type": "keyword"
+      },
+      "inventoryCount": {
+        "type": "integer"
+      },
+      "category": {
+        "type": "keyword"
+      },
+      "priceValue": {
+        "type": "integer"
+      }
+    }
+  }
+}
